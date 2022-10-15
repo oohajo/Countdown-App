@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="final-date">
+        Final date:
+        <input type="datetime-local" id="final-date-input">
+        <button id="countdown-btn">Start counting</button>
+    </div>
+
+    <div id="msg">
+        <h2>Counting over!</h2>
+    </div>
+
+    <div class="clock-container">
+        <div class="cell">
+            <h3>Days: </h3>
+            <h2 id="days"> -- </h2>
+        </div>
+        <div class="cell">
+            <h3>Hours: </h3>
+            <h2 id="hours"> -- </h2>
+        </div>
+        <div class="cell">
+            <h3>Minutes: </h3>
+            <h2 id="minutes"> -- </h2>
+        </div>
+        <div class="cell">
+            <h3>Seconds: </h3>
+            <h2 id="seconds"> -- </h2>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

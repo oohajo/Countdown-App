@@ -1,0 +1,37 @@
+* {margin: 0; padding: 0; box-sizing: border-box}
+
+body {
+    font-family: sans-serif;
+    width: 80vw;
+    background-color: lightgray;
+    line-height: 2.3rem;
+    margin: 20px;
+}
+
+#msg {
+    text-align: center;
+    display: none;
+    padding: 30px;
+    color: orangered;
+}
+
+.final-date {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.clock-container {
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    color: white;
+}
+
+.cell h3 {
+    font-size: 1.1rem;
+    text-align: center;
+}
